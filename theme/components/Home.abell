@@ -1,0 +1,39 @@
+<AbellComponent>
+{{ const { name, headline } = props }}
+<template> 
+  <section id="home">
+    <div class="home-info-container">
+      Hi, I am
+      <h1>{{ name }}</h1>
+      <p class="font-secondary headline">{{ headline }}</p>
+    </div>
+  </section>  
+</template>
+
+<style>
+  section#home {
+    padding: 0px 0px;
+    color: #111;
+    height: 70vh;
+  }
+
+  section#home h1 {
+    font-size: 4rem;
+    margin: 0px 0px;
+  }
+
+  section#home .home-info-container {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+
+  section#home .headline {
+    font-size: 2rem;
+    margin: 0px 0px;
+    padding: 2px 5px;
+  }
+</style>
+</AbellComponent>

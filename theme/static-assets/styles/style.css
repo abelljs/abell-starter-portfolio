@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0px;
+  color: #111;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+h1, h2, h3, h4, .font-secondary {
+  font-family: 'Poppins', sans-serif;
+}
+
+a { text-decoration: none; }
+
+.display-inline-block { display: inline-block; }

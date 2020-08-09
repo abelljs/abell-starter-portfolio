@@ -1,0 +1,32 @@
+<AbellComponent>
+{{ const projects = require('../data/projects.json') }}
+<template>
+  <section class="container" id="projects">
+    <h2>Projects</h2>
+    {{
+      projects.map(project => /* html */ `
+        <div class="project-container">
+          <h3>${project.name}</h3>
+          <a href="${project.url}">${project.url}</a>
+          <p>${project.description}</p>
+        </div>
+      `)
+    }}
+  </section>
+</template>
+
+<style>
+#projects h3 {
+  margin: 3px 0px;
+}
+#projects p {
+  margin: 10px 0px;
+}
+#projects .project-container {
+  padding: 10px 0px;
+}
+#projects .project-container a {
+  word-wrap: break-word;
+}
+</style>
+</AbellComponent>

@@ -35,5 +35,19 @@
     margin: 0px 0px;
     padding: 2px 5px;
   }
+
+  @media (max-width: 768px) {
+    section#home {
+      padding: 30px;
+    }
+    section#home h1 {
+      font-size: 3rem;
+      line-height: 1.1;
+    }
+
+    section#home .headline {
+      font-size: 1.5rem;
+    }
+  }
 </style>
 </AbellComponent>

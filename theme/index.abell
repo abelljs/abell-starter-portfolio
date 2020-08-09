@@ -1,24 +1,30 @@
 {{
-  const { globalMeta } = Abell;
+  const { globalMeta, importContent } = Abell;
 
   const Navbar = require('./components/Navbar.abell');
   const Home = require('./components/Home.abell');
+  const About = require('./components/About.abell');
+  const Projects = require('./components/Projects.abell');
+  const Footer = require('./components/Footer.abell');
 }}
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{{ globalMeta.name }} - Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="./static-assets/icons/favicon.ico"/>
   <link rel="stylesheet" href="./static-assets/styles/style.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&Roboto&xdisplay=swap" rel="stylesheet"> 
+  
+  <title>{{ globalMeta.name }} - Portfolio</title>
 </head>
 <body>
   <Navbar props={brand: globalMeta.brand} />
   <main>
     <Home props={...globalMeta} />
-    <section id="projects"></section>
-    <section id="about"></section>
+    <About props={importContent}/>
+    <Projects/>
   </main>
-  <footer></footer>
+  <Footer/>
 </body>
 </html>

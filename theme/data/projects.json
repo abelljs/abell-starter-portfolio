@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Abell",
+    "description": "Abell is a JavaScript based static-site-generator to help you create website from static data like, Markdown, JSON, etc.",
+    "url": "https://github.com/abelljs/abell"
+  },
+  {
+    "name": "Text to Handwriting",
+    "description": "A project to create handwritten assignments from text content.",
+    "url": "https://github.com/saurabhdaware/text-to-handwriting"
+  }
+]

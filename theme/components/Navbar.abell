@@ -50,8 +50,11 @@
     color: #555;
     transition: color .3s ease;
   }
+
+  @media (max-width: 768px) {
+    nav#topnav {
+      padding: 0px 10px;
+    }
+  }
 </style>
-<script>
-  
-</script>
 </AbellComponent>

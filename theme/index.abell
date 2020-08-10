@@ -8,10 +8,12 @@
   const Footer = require('./components/Footer.abell');
 }}
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio Starter for Abell. This starter includes projects, and about section."/>
+
   <link rel="icon" href="./static-assets/icons/favicon.ico"/>
   <link rel="stylesheet" href="./static-assets/styles/style.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&Roboto&xdisplay=swap" rel="stylesheet"> 

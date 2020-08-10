@@ -1,6 +1,8 @@
 # abell-starter-portfolio
 A portfolio starter of Abell.
 
+The README is written for v0.4.0 and the commands will only work when Abell v0.4.0 is released.
+
 ## Usage
 ```sh
 npx create-abell-app my-portfolio --template abelljs/abell-starter-portfolio

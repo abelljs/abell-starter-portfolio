@@ -10,7 +10,8 @@
   </section>  
 </template>
 
-<style>
+<!-- 'inlined' attribute adds CSS to <head> tag of the main page. -->
+<style inlined>
   section#home {
     padding: 0px 0px;
     color: #111;

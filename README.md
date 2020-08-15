@@ -28,7 +28,7 @@ npm run dev # to run a dev server
 
 ## Credits
 
-- Thanks to @The-lady-developer for helping with the Typography
+- Thanks to [@The-lady-developer](https://github.com/The-lady-developer) for helping with the Typography
 
 ## Sponsors
 

@@ -26,6 +26,10 @@ npm install
 npm run dev # to run a dev server
 ```
 
+## Credits
+
+- Thanks to @The-lady-developer for helping with the Typography
+
 ## Sponsors
 
 We're looking for sponsors! Check out the sponsorship links in [abelljs/abell](https://github.com/abelljs/abell).

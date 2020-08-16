@@ -1,7 +1,7 @@
 # abell-starter-portfolio
 A portfolio starter of Abell.
 
-The README is written for v0.4.0 and the commands will only work when Abell v0.4.0 is released.
+**Preview:** https://abell-starter-portfolio.netlify.app
 
 ## Usage
 ```sh

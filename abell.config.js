@@ -3,7 +3,6 @@ module.exports = {
   globalMeta: {
     name: "Saurabh Daware",
     brand: "SD",
-    headline: "I love building random things with JavaScript!",
-    bio: ""
+    headline: "I love building random things with JavaScript!"
   }
 }

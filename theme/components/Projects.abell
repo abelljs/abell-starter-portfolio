@@ -16,16 +16,16 @@
 </template>
 
 <style>
-#projects h3 {
+section h3 {
   margin: 3px 0px;
 }
-#projects p {
+section p {
   margin: 10px 0px;
 }
-#projects .project-container {
+section .project-container {
   padding: 10px 0px;
 }
-#projects .project-container a {
+section .project-container a {
   word-wrap: break-word;
 }
 </style>

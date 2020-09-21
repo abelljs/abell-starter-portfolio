@@ -18,12 +18,12 @@
     height: 70vh;
   }
 
-  section#home h1 {
+  section h1 {
     font-size: 4rem;
     margin: 0px 0px;
   }
 
-  section#home .home-info-container {
+  section .home-info-container {
     display: inline-block;
     position: relative;
     top: 50%;
@@ -31,22 +31,22 @@
     transform: translateY(-50%) translateX(-50%);
   }
 
-  section#home .headline {
+  section .headline {
     font-size: 2rem;
     margin: 0px 0px;
     padding: 2px 5px;
   }
 
   @media (max-width: 768px) {
-    section#home {
+    section {
       padding: 30px;
     }
-    section#home h1 {
+    section h1 {
       font-size: 3rem;
       line-height: 1.1;
     }
 
-    section#home .headline {
+    section .headline {
       font-size: 1.5rem;
     }
   }

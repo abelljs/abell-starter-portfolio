@@ -1,9 +1,10 @@
 <AbellComponent>
 <template>
   <footer>
-    &#169; <a href="https://github.com/abelljs/abell">Abell</a> <span id="footer-year"></span>
+    &#169; <a href="https://github.com/abelljs/abell">Abell</a> <span class="footer-year"></span>
   </footer>
 </template>
+
 <style>
   footer {
     padding: 30px 200px;
@@ -16,7 +17,9 @@
     }
   }
 </style>
+
 <script inlined>
-  document.querySelector('#footer-year').innerText = new Date().getFullYear();
+  // Just like document.querySelector but ensures element is selected from same component.
+  scopedSelector('.footer-year').innerText = new Date().getFullYear();
 </script>
 </AbellComponent>
